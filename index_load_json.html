@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head lang="ko">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>index_load_json</title>
+    <meta name="description" content="">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+  
+    <style type="text/css">
+      @charset "utf-8";
+      body {
+        font-family: verdana, Arial, applegothic, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      #selectForm {}
+      #selectForm legend {
+        display:none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+
+      <div class="header">
+        <div class="logo">
+        </div>
+        
+        <h3>use &lt;select&gt; target</h3>
+        <form id="selectForm" method="post" action="">
+          <fieldset>
+            <legend>select</legend>
+            <select id="sampleSelect" name="sampleSelect">
+              <!--
+              <option value="select">select</option>
+              <option value="option_1_1">옵션 1</option>
+              <option value="option_1_2">옵션 2</option>
+              <option value="option_1_3">옵션 3</option>
+              -->
+            </select>
+          </fieldset>
+        </form>
+
+        <div>
+          <h3>use &lt;a&gt; href, target </h3>
+          <a href="http://www.naver.com">naver, no target</a>
+          <a href="http://www.naver.com" target="_self">naver, target:"_self"</a>
+          <a href="http://www.daum.net" target="_blank">daum, target:"_blank"</a>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- <script src="js/jquery-1.7.0.min.js"></script> -->
+    <script src="js/index-load-json.js"></script>
+
+  </body>
+</html>

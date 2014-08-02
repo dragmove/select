@@ -1,0 +1,26 @@
+{
+  "gnbSelect": [
+  	{
+		"title": "select"
+	}, {
+		"title": "naver, no target",
+		"value": "",
+		"url": "http://www.naver.com"
+	}, {
+		"title": "daum, target:''",
+		"value": "",
+		"url": "http://www.daum.net",
+		"target": ""
+	}, {
+		"title": "daum, target:'_self'",
+		"value": "",
+		"url": "http://www.daum.net",
+		"target": "_self"
+	}, {
+		"title": "daum, target:'_blank'",
+		"value": "",
+		"url": "http://www.daum.net",
+		"target": "_blank"
+	}
+  ]
+}
