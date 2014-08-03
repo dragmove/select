@@ -45,6 +45,7 @@
 			// implement
 			init();
 			setEvents(selectDatas);
+			activateSelectByExternal( parseInt(window.nctGnbSelectActivateIndex) );
 
 			// functions
 			function init() {
@@ -80,6 +81,12 @@
 							window.location.href = url;
 					}
 				});
+			}
+
+			function activateSelectByExternal(index) {
+				if(index === null || index === undefined) return;
+				if(index <= 0 || index > selectDatas.length) return;
+				$('option', select).eq(index).prop('selected', true);
 			}
 
 			function openWindow(obj) {

@@ -9,7 +9,7 @@ nct.admin.dataGnbSelect = [
 	}, {
 		title: 'naver, no target',
 		value: '',
-		url: 'http://www.naver.com' // '', '   '은 무시합니다.
+		url: 'http://www.naver.com' // '', '   ' 들은 무시합니다.
 		//target 이 없을 경우 _self 링크.
 	}, {
 		title: 'daum, target:""',
